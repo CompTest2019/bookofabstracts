@@ -1,0 +1,195 @@
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+body {
+  background: #CFCFCF;
+  min-height: 100vh;
+}
+
+/*---- NAVBAR ---- */
+
+.navbar {
+  background: #00305c;
+}
+
+.navbar-brand {
+  color: #FF9C00;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.navbar-brand:hover {
+  color: #637F98;
+}
+
+.nav-link {
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+#nav-link-current {
+  color: #B2B2B2;
+}
+
+.nav-link:hover {
+  color: #637F98;
+}
+
+#non-clickable:hover {
+  color: white;
+}
+
+#navbar-search {
+  font-weight: bold;
+  border-width: medium;
+}
+
+#LTUlogo{
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  height: auto;
+}
+
+/*---- MAIN CONTENT ---- */
+h1, h2, h3, h4, h5 {
+  text-align: center;
+  color: #00305c;
+  font-weight: bold;
+}
+
+h1 {
+  margin-top: 5%;
+}
+
+h2 {
+  margin-top: 5%;
+}
+
+h3 {
+  margin-top: 2.5%;
+}
+
+h4 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-top: 2%;
+}
+
+h5 {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding-top: 2%;
+}
+
+dt {
+  margin-top: 2%;
+  text-align: justify;
+}
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+.border-top {
+  border-width: thin !important;
+}
+
+.border-bottom {
+  border-width: medium !important;
+}
+
+.nav-pills {
+  padding-bottom: 1px;
+}
+
+.keynote-authors, .keynote-institutions, .keynote-keywords {
+  text-align: center;
+}
+
+.p-authors, .p-institutions, .p-keywords {
+  padding-left: 95px;
+}
+
+.id-authors, .id-institutions, .id-keywords {
+  padding-left: 40px;
+}
+
+.keynote-title {
+  text-align: center;
+}
+
+.keynote-authors, .p-authors, .id-authors, .title-authors {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.keynote-institutions, .p-institutions, .id-institutions, .title-institutions {
+  margin-top: 1px;
+  margin-bottom: 5px;
+}
+
+.keynote-keywords, .p-keywords, .id-keywords, .title-keywords {
+  margin-top: 7.5px;
+  font-style: italic;
+}
+
+.s-keywords-title {
+  font-weight: bold;
+}
+
+.s-presenter {
+  text-decoration: underline;
+}
+
+/*---- FOOTER ---- */
+
+.footer {
+  width: 100%;
+  clear: both;
+  position: static;
+  bottom: 0;
+  background: #00305c;
+  text-align: center;
+  color: white;
+  font-size: x-large;
+  font-weight: bold;
+  margin-top: 5%!important;
+}
+
+@media screen and (min-height: 900px) {
+  #footer-switch {
+    position: fixed;
+  }
+}
+
+.mt-auto, .my-auto {
+    margin-top: auto!important;
+}
+
+.pb-3, .py-3 {
+    padding-bottom: 1rem!important;
+}
+
+.pt-3, .py-3 {
+    padding-top: 1rem!important;
+}
